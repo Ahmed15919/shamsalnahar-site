@@ -1,0 +1,33 @@
+import React from "react";
+
+export default function Home() {
+  return (
+    <main className="min-h-screen bg-black text-white font-sans">
+      <section className="py-20 px-8 text-center">
+        <h1 className="text-5xl font-bold mb-4">SHAMS AL NAHAR</h1>
+        <p className="text-xl tracking-wide text-gray-400">
+          Building Contracting Company Based in the UAE
+        </p>
+      </section>
+
+      <section className="bg-gray-900 py-16 px-8 text-center">
+        <h2 className="text-3xl font-semibold mb-6">Our Services</h2>
+        <p className="text-gray-300 max-w-2xl mx-auto">
+          We provide a wide range of construction services including structural works, finishing, maintenance, and turnkey projects. We aim to deliver quality and value with every build.
+        </p>
+      </section>
+
+      <section className="py-16 px-8 text-center bg-black">
+        <h2 className="text-3xl font-semibold mb-6">Contact Us</h2>
+        <p className="text-gray-300">Email us at:</p>
+        <a href="mailto:a.ayman@shamsalnahar.com" className="text-blue-400">
+          a.ayman@shamsalnahar.com
+        </a>
+      </section>
+
+      <footer className="py-6 px-4 bg-gray-900 text-center text-sm text-gray-500">
+        &copy; {new Date().getFullYear()} SHAMS AL NAHAR BUILDING CONTRACTING. All rights reserved.
+      </footer>
+    </main>
+  );
+}
